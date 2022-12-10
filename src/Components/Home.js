@@ -84,7 +84,7 @@ function Home() {
               <h1 className="home__text pz__10">
                 Welcome to my Portfolios !!{" "}
               </h1>
-              <h2 className="home__text pz__10">I’m Vicky Poonia </h2>
+              <h2 className="home__text pz__10">I’m Vicky </h2>
               <h3 className="home__text pz__10 sweet">Full-Stack Developer </h3>
               <h4 className="home__text pz__10">Based in Noida, INDIA </h4>
             </div>
