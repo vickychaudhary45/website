@@ -30,7 +30,7 @@ function About() {
                 There are many variations of passages of Lorem Ipsum available.
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="google.com">
+                <a href="https://drive.google.com/file/d/1kA-OkXWq5Mqr1A6XDlzZ5ivI2sOjm03N/view?usp=sharing">
                   <button className="about btn pointer">Download Cv</button>
                 </a>
                 <a href="https://www.linkedin.com/in/vicky-poonia-153748234">
