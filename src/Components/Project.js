@@ -47,7 +47,7 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">To-Do-app</h5>
                 <h4 className="project__text">Save your time using it</h4>
-                <a href="your-to-do-tasks.netlify.app" className="project__btn">
+                <a href="https://your-to-do-tasks.netlify.app" className="project__btn">
                   View Details
                 </a>
               </div>
@@ -65,7 +65,7 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">PSD to HTML - 1</h5>
                 <h4 className="project__text">PSD to HTML conversion</h4>
-                <a href="psd-to-html-1.netlify.app/" className="project__btn">
+                <a href="https://psd-to-html-1.netlify.app/" className="project__btn">
                   View Details
                 </a>
               </div>
