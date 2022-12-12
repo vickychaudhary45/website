@@ -29,7 +29,7 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">Personal Website</h5>
                 <h4 className="project__text">You are exploring my website</h4>
-                <a href="google.com" className="project__btn">
+                <a href="https://personal-websitee.netlify.app/" className="project__btn">
                   View Details
                 </a>
               </div>
@@ -47,7 +47,7 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">To-Do-app</h5>
                 <h4 className="project__text">Save your time using it</h4>
-                <a href="google.com" className="project__btn">
+                <a href="your-to-do-tasks.netlify.app" className="project__btn">
                   View Details
                 </a>
               </div>
@@ -63,9 +63,9 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">CRUD operation</h5>
-                <h4 className="project__text">Using HTML5 CSS3 Javascript</h4>
-                <a href="google.com" className="project__btn">
+                <h5 className="project__text">PSD to HTML - 1</h5>
+                <h4 className="project__text">PSD to HTML conversion</h4>
+                <a href="psd-to-html-1.netlify.app/" className="project__btn">
                   View Details
                 </a>
               </div>
@@ -81,10 +81,10 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">PSD to HTML - 1</h5>
-                <h4 className="project__text">Basic psd to HTML conversion</h4>
+                <h5 className="project__text">CRUD operation</h5>
+                <h4 className="project__text">Using HTML5 CSS3 Javascript</h4>
                 <a href="google.com" className="project__btn">
-                  View Details
+                  Working on it
                 </a>
               </div>
             </div>
@@ -102,7 +102,7 @@ function Project() {
                 <h5 className="project__text">PSD to HTML - 2</h5>
                 <h4 className="project__text">Basic psd to HTML conversion</h4>
                 <a href="google.com" className="project__btn">
-                  View Details
+                  working on it
                 </a>
               </div>
             </div>
@@ -120,15 +120,15 @@ function Project() {
                 <h5 className="project__text">PSD to HTML - 3</h5>
                 <h4 className="project__text">Basic psd to HTML conversion</h4>
                 <a href="google.com" className="project__btn">
-                  View Details
+                  Working on it
                 </a>
               </div>
             </div>
           </div>
 
-          <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
+          {/* <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
             <button className="view__more pointer btn">View more</button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
