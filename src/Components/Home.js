@@ -84,9 +84,11 @@ function Home() {
               <h1 className="home__text pz__10">
                 Welcome to my Portfolios !!{" "}
               </h1>
-              <h2 className="home__text pz__10">I’m Vicky </h2>
-              <h3 className="home__text pz__10 sweet">Full-Stack Developer </h3>
-              <h4 className="home__text pz__10">Based in Noida, INDIA </h4>
+              <h2 className="home__text pz__10">I’m Vicky Poonia</h2>
+              <h2 >I did my graduation from Delhi University in B.Sc. Electronic Science. <br />
+              I am doing Master of Computer Application from Abdul Kalam Technical University. <br />
+              I have done multiple projects to up skill myself. Please explore them below.</h2>
+              {/* <h4 className="home__text pz__10">Based in Noida, INDIA </h4> */}
             </div>
           </div>
         </div>
