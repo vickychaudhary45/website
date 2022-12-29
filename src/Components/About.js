@@ -4,10 +4,10 @@ import aboutImg from "../Img/bg1.jpg";
 
 function About() {
   //  Up To Top Btn
-  // window.addEventListener("scroll", function(){
-  //   const upToTop = document.querySelector("a.bottom__to__top");
-  //    upToTop.classList.toggle("active", window.scrollY > 0)
-  // });
+  window.addEventListener("scroll", function(){
+    const upToTop = document.querySelector("a.bottom__to__top");
+     upToTop.classList.toggle("active", window.scrollY > 0)
+  });
   return (
     <div className="about component__space" id="About">
       <div className="container">
@@ -42,7 +42,7 @@ function About() {
         </div>
       </div>
       {/* UP TO TOP BTN */}
-      {/* <div className="up__to__top__btn">
+      <div className="up__to__top__btn">
         <a href="#" className="bottom__to__top">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ function About() {
           />
         </svg>
         </a>
-      </div> */}
+      </div>
     </div>
   );
 }

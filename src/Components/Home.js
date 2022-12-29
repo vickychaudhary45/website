@@ -44,7 +44,7 @@ function Home() {
             </ul>
           </div>
 
-          {/* <div className="toggle__menu">
+          <div className="toggle__menu">
             <svg
               onClick={() => setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ function Home() {
                 <li className="sideNavbar"> <a href="#contact">Contact    </a> </li>
               </ul>
             </div>
-          ) : null} */}
+          ) : null}
         </div>
         {/* HOME CONTENT */}
         <div className="container">
