@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import logo from "../Img/logo4.jpg";
+import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   window.addEventListener("scroll", function () {
@@ -8,7 +9,7 @@ function Home() {
     header.classList.toggle("active", window.scrollY > 0);
   });
 
-   const [show, setShow] = useState(true);
+  const [show, setShow] = useState(true);
   return (
     <div className="home" id="Home">
       <div className="home__bg">
@@ -18,27 +19,22 @@ function Home() {
           </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
-              <a href="#Home">
-                {" "}
+              <a href="/">
                 <li className="nav__items mx__15">Home </li>
               </a>
-              <a href="#About">
-                {" "}
+              {/* <a href="./A">
                 <li className="nav__items mx__15">About </li>
+              </a> */}
+              <a href="#Portfolio">
+                <li className="nav__items mx__15">MyProjects</li>
               </a>
               <a href="#Services">
-                {" "}
-                <li className="nav__items mx__15">Services </li>
+                <li className="nav__items mx__15">Skills </li>
               </a>
-              <a href="#Portfolio">
-                <li className="nav__items mx__15">Portfolio</li>
-              </a>
-              <a href="#Blog">
-                {" "}
+              {/* <a href="#Blog">
                 <li className="nav__items mx__15">Blog </li>
-              </a>
+              </a> */}
               <a href="#Contact">
-                {" "}
                 <li className="nav__items mx__15">Contact </li>
               </a>
             </ul>
@@ -63,32 +59,58 @@ function Home() {
             </svg>
           </div>
 
-          {show ? (
+          {show ? null : (
             <div className="sideNavbar">
               <ul className="sidebar d__flex">
-                <li className="sideNavbar"> <a href="#home">Home          </a> </li>
-                <li className="sideNavbar"> <a href="#about">About        </a> </li>
-                <li className="sideNavbar"> <a href="#services">Skills  </a> </li>
-                <li className="sideNavbar"> <a href="#portfolio">Portfolio</a> </li>
-                <li className="sideNavbar"> <a href="#blog">Blog          </a> </li>
-                <li className="sideNavbar"> <a href="#contact">Contact    </a> </li>
+                <li className="sideNavbar">
+                  <a href="#home">Home </a>
+                </li>
+                {/* <li className="sideNavbar">
+                  <a href="#about">About </a>
+                </li> */}
+                <li className="sideNavbar">
+                  <a href="#portfolio">MyProjects</a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#services">Skills </a>
+                </li>
+                {/* <li className="sideNavbar">
+                  <a href="#blog">Blog </a>
+                </li> */}
+                <li className="sideNavbar">
+                  <a href="#contact">Contact </a>
+                </li>
               </ul>
             </div>
-          ) : null}
+          )}
         </div>
         {/* HOME CONTENT */}
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
-              <h1 className="home__text pz__10">Hi There,</h1>
               <h1 className="home__text pz__10">
-                Welcome to my Portfolios !!{" "}
+                Hi, Welcome to my Portfolios !!
               </h1>
-              <h2 className="home__text pz__10">I’m Vicky Poonia</h2>
-              <h2 >I did my graduation from Delhi University in B.Sc. Electronic Science. <br />
-              I am doing Master of Computer Application from Abdul Kalam Technical University. <br />
-              I have done multiple projects to up skill myself. Please explore them below.</h2>
-              {/* <h4 className="home__text pz__10">Based in Noida, INDIA </h4> */}
+              <TypeAnimation
+                sequence={[
+                  "I am Frontend developer",
+                  500,
+                  "I am ReactJS developer",
+                  1000,
+                ]}
+                speed={20}
+                style={{ fontSize: "40px", color: "green" }}
+                wrapper="span"
+                repeat={Infinity}
+              />
+              <h2>
+                I am currently based in Noida, Uttar Pradesh. <br />
+              </h2>
+              <div className="bttn">
+                <a href="https://drive.google.com/file/d/1kA-OkXWq5Mqr1A6XDlzZ5ivI2sOjm03N/view?usp=sharing">
+                  <button className="about btn pointer">My Resume</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>

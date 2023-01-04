@@ -34,9 +34,17 @@ input.contact {
 
 .contact__img {
     border-radius: 10px;
-    width: 100%;
+    width: 50%;
     overflow: hidden;
 }
+
+.col__img {
+    max-width: 40%;
+    /* display: flex; */
+    /* padding: 20px; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+  }
 
 textarea#message {
     height: 120px;
@@ -53,3 +61,12 @@ textarea#message {
 button.btn.contact.pointer {
     margin: 20px 0px;
 }
+
+/* .socio{
+    text-align: center;
+}
+
+.socio a{
+    margin: 20px;
+    padding: 20px;
+} */

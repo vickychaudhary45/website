@@ -4,20 +4,55 @@ import Project1 from "../Img/portfolio-1.jpg";
 import Project2 from "../Img/portfolio-2.jpg";
 import Project3 from "../Img/portfolio-3.jpg";
 import Project4 from "../Img/portfolio-4.jpg";
+import Project5 from "../Img/portfolio-5.jpg";
+import Project6 from "../Img/portfolio-6.jpg";
 
 function Project() {
   return (
     <div className="project component__space" id="Portfolio">
       <div className="heading">
         <h1 className="heading">My Projects</h1>
-        <p className="heading p__color">
-          There are many variations of passages of Lorem Ipsum available,
-          <br />
-          but the majority have suffered alteration.
-        </p>
       </div>
       <div className="container">
         <div className="row">
+          {/* <br /> */}
+
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img src={Project4} alt="" className="project__img" />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+              <div className="project__meta absolute">
+                <h5 className="project__text">Figma to Reactjs app</h5>
+                <h4 className="project__text">
+                  Tech:- Reactjs, Router-DOM, Figma.
+                </h4>
+                {/* <h6 className="project__text">
+                  Figma to React app with Routing.
+                </h6> */}
+                <a
+                  href="https://figma-to-reactjs.netlify.app/"
+                  target="_blank"
+                  className="project__btn btn2"
+                >
+                  <i className="fa fa-eye"></i> &nbsp; Visit
+                </a>
+                <a
+                  href="https://github.com/vicky-poonia/figma-to-reactjs-app"
+                  target="_blank"
+                  className="project__btn btn3"
+                >
+                  <i className="fa fa-github"></i> &nbsp; Source
+                </a>
+              </div>
+            </div>
+          </div>
+
+          
+
           <div className="col__3">
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
@@ -27,10 +62,54 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">Personal Website</h5>
-                <h4 className="project__text">You are exploring my website</h4>
-                <a href="https://personal-websitee.netlify.app/" className="project__btn">
-                  View Details
+                <h5 className="project__text">E-commerce-store</h5>
+                <h4 className="project__text">Tech:- React JS + Redux. </h4>
+                {/* <h6 className="project__text">
+                  Cart update on addition and removal.
+                </h6> */}
+                <a href="/" target="_blank" className="project__btn btn2">
+                  <i className="fa fa-eye"></i> &nbsp; Visit
+                </a>
+                <a
+                  href="https://github.com/vicky-poonia/e-commerce-website"
+                  target="_blank"
+                  className="project__btn btn3"
+                >
+                  <i className="fa fa-github"></i> &nbsp; Source
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img src={Project3} alt="" className="project__img" />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+              <div className="project__meta absolute">
+                <h5 className="project__text">Post Office app</h5>
+                <h4 className="project__text">
+                  Tech:- HTML, CSS, JS-fetch-api.
+                </h4>
+                {/* <h6 className="project__text">
+                  Provides post offices list of user choice city.
+                </h6> */}
+                <a
+                  href="https://check-post-office-of-any-city.netlify.app/"
+                  target="_blank"
+                  className="project__btn btn2"
+                >
+                  <i className="fa fa-eye"></i> &nbsp; Visit
+                </a>
+                <a
+                  href="https://github.com/vicky-poonia/API-Post-Offices"
+                  target="_blank"
+                  className="project__btn btn3"
+                >
+                  <i className="fa fa-github"></i> &nbsp; Source
                 </a>
               </div>
             </div>
@@ -45,10 +124,26 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">To-Do-app</h5>
-                <h4 className="project__text">Save your time using it</h4>
-                <a href="https://your-to-do-tasks.netlify.app" className="project__btn">
-                  View Details
+                <h5 className="project__text">Organisation Website</h5>
+                <h4 className="project__text">
+                  Tech:- HTML, CSS, JS, Photoshop.
+                </h4>
+                {/* <h6 className="project__text">
+                  Built a website using PSD document.
+                </h6> */}
+                <a
+                  href="https://psd-to-html-1.netlify.app/"
+                  target="_blank"
+                  className="project__btn btn2"
+                >
+                  <i className="fa fa-eye"></i> &nbsp; Visit
+                </a>
+                <a
+                  href="https://github.com/vicky-poonia/psd-to-html-1"
+                  target="_blank"
+                  className="project__btn btn3"
+                >
+                  <i className="fa fa-github"></i> &nbsp; Source
                 </a>
               </div>
             </div>
@@ -58,15 +153,31 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Project3} alt="" className="project__img" />
+                  <img src={Project5} alt="" className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">PSD to HTML - 1</h5>
-                <h4 className="project__text">PSD to HTML conversion</h4>
-                <a href="https://psd-to-html-1.netlify.app/" className="project__btn">
-                  View Details
+                <h5 className="project__text">To-Do App</h5>
+                <h4 className="project__text">
+                  Tech:- Reactjs, Hooks, Bootstrap.
+                </h4>
+                {/* <h6 className="project__text">
+                  Add, Edit, Delete in To-Do list.
+                </h6> */}
+                <a
+                  href="https://your-to-do-tasks.netlify.app/"
+                  target="_blank"
+                  className="project__btn btn2"
+                >
+                  <i className="fa fa-eye"></i> &nbsp; Visit
+                </a>
+                <a
+                  href="https://github.com/vicky-poonia/To-do-list"
+                  target="_blank"
+                  className="project__btn btn3"
+                >
+                  <i className="fa fa-github"></i> &nbsp; Source
                 </a>
               </div>
             </div>
@@ -76,51 +187,31 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Project4} alt="" className="project__img" />
+                  <img src={Project6} alt="" className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">CRUD operation</h5>
-                <h4 className="project__text">Using HTML5 CSS3 Javascript</h4>
-                <a href="google.com" className="project__btn">
-                  Working on it
+                <h5 className="project__text">Website Landing Page</h5>
+                <h4 className="project__text">
+                  Tech:- HTML, CSS, JS, Photoshop.
+                </h4>
+                {/* <h6 className="project__text">
+                    A website using PSD document to HTML.
+                </h6> */}
+                <a
+                  href="https://axit-psd-to-html-website.netlify.app/"
+                  target="_blank"
+                  className="project__btn btn2"
+                >
+                  <i className="fa fa-eye"></i> &nbsp; Visit
                 </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
-                  <img src={Project3} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">PSD to HTML - 2</h5>
-                <h4 className="project__text">Basic psd to HTML conversion</h4>
-                <a href="google.com" className="project__btn">
-                  working on it
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
-                  <img src={Project4} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">PSD to HTML - 3</h5>
-                <h4 className="project__text">Basic psd to HTML conversion</h4>
-                <a href="google.com" className="project__btn">
-                  Working on it
+                <a
+                  href="https://github.com/vicky-poonia/psd-to-html-3-axit"
+                  target="_blank"
+                  className="project__btn btn3"
+                >
+                  <i className="fa fa-github"></i> &nbsp; Source
                 </a>
               </div>
             </div>
