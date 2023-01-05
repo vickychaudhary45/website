@@ -26,9 +26,9 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">Figma to Reactjs app</h5>
+                <h5 className="project__text">Figma to Reactjs Website</h5>
                 <h4 className="project__text">
-                  Tech:- Reactjs, Router-DOM, Figma.
+                   Reactjs, Router-DOM, Figma.
                 </h4>
                 {/* <h6 className="project__text">
                   Figma to React app with Routing.
@@ -64,7 +64,7 @@ function Project() {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">E-commerce-store</h5>
-                <h4 className="project__text">Tech:- React JS + Redux. </h4>
+                <h4 className="project__text"> React JS + Redux. </h4>
                 {/* <h6 className="project__text">
                   Cart update on addition and removal.
                 </h6> */}
@@ -93,7 +93,7 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">Post Office app</h5>
                 <h4 className="project__text">
-                  Tech:- HTML, CSS, JS-fetch-api.
+                   HTML, CSS, JS-fetch-api.
                 </h4>
                 {/* <h6 className="project__text">
                   Provides post offices list of user choice city.
@@ -127,7 +127,7 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">Organisation Website</h5>
                 <h4 className="project__text">
-                  Tech:- HTML, CSS, JS, Photoshop.
+                   HTML, CSS, JS, Photoshop.
                 </h4>
                 {/* <h6 className="project__text">
                   Built a website using PSD document.
@@ -161,7 +161,7 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">To-Do App</h5>
                 <h4 className="project__text">
-                  Tech:- Reactjs, Hooks, Bootstrap.
+                   Reactjs, Hooks, Bootstrap.
                 </h4>
                 {/* <h6 className="project__text">
                   Add, Edit, Delete in To-Do list.
@@ -195,7 +195,7 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">Website Landing Page</h5>
                 <h4 className="project__text">
-                  Tech:- HTML, CSS, JS, Photoshop.
+                   HTML, CSS, JS, Photoshop.
                 </h4>
                 {/* <h6 className="project__text">
                     A website using PSD document to HTML.
