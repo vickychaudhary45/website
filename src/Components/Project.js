@@ -35,7 +35,7 @@ function Project() {
                 </h6> */}
                 <a
                   href="https://figma-to-reactjs.netlify.app/"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="project__btn btn2"
                 >
                   <i className="fa fa-eye"></i> &nbsp; Visit
@@ -43,6 +43,7 @@ function Project() {
                 <a
                   href="https://github.com/vicky-poonia/figma-to-reactjs-app"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="project__btn btn3"
                 >
                   <i className="fa fa-github"></i> &nbsp; Source
@@ -67,12 +68,12 @@ function Project() {
                 {/* <h6 className="project__text">
                   Cart update on addition and removal.
                 </h6> */}
-                <a href="/" target="_blank" className="project__btn btn2">
+                <a href="/" target="_blank" rel="noopener noreferrer" className="project__btn btn2">
                   <i className="fa fa-eye"></i> &nbsp; Visit
                 </a>
                 <a
                   href="https://github.com/vicky-poonia/e-commerce-website"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="project__btn btn3"
                 >
                   <i className="fa fa-github"></i> &nbsp; Source
@@ -99,14 +100,14 @@ function Project() {
                 </h6> */}
                 <a
                   href="https://check-post-office-of-any-city.netlify.app/"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="project__btn btn2"
                 >
                   <i className="fa fa-eye"></i> &nbsp; Visit
                 </a>
                 <a
                   href="https://github.com/vicky-poonia/API-Post-Offices"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="project__btn btn3"
                 >
                   <i className="fa fa-github"></i> &nbsp; Source
@@ -133,14 +134,14 @@ function Project() {
                 </h6> */}
                 <a
                   href="https://psd-to-html-1.netlify.app/"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="project__btn btn2"
                 >
                   <i className="fa fa-eye"></i> &nbsp; Visit
                 </a>
                 <a
                   href="https://github.com/vicky-poonia/psd-to-html-1"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="project__btn btn3"
                 >
                   <i className="fa fa-github"></i> &nbsp; Source
@@ -167,14 +168,14 @@ function Project() {
                 </h6> */}
                 <a
                   href="https://your-to-do-tasks.netlify.app/"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="project__btn btn2"
                 >
                   <i className="fa fa-eye"></i> &nbsp; Visit
                 </a>
                 <a
                   href="https://github.com/vicky-poonia/To-do-list"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="project__btn btn3"
                 >
                   <i className="fa fa-github"></i> &nbsp; Source
@@ -201,14 +202,14 @@ function Project() {
                 </h6> */}
                 <a
                   href="https://axit-psd-to-html-website.netlify.app/"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="project__btn btn2"
                 >
                   <i className="fa fa-eye"></i> &nbsp; Visit
                 </a>
                 <a
                   href="https://github.com/vicky-poonia/psd-to-html-3-axit"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="project__btn btn3"
                 >
                   <i className="fa fa-github"></i> &nbsp; Source
