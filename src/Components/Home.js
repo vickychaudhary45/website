@@ -94,11 +94,11 @@ function Home() {
               <TypeAnimation
                 sequence={[
                   "I am Frontend developer",
-                  500,
+                  1000,
                   "I am ReactJS developer",
                   1000,
                 ]}
-                speed={20}
+                speed={10}
                 style={{ fontSize: "40px", color: "green" }}
                 wrapper="span"
                 repeat={Infinity}

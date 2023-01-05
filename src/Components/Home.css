@@ -1,6 +1,6 @@
 .home__bg {
     background-image: url("../Img/bg.jpg");
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.5);
     background-blend-mode: darken;
     background-position: 65%;
     background-repeat: no-repeat;
