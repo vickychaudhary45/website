@@ -21,21 +21,88 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
+                  <img src={Project1} alt="" className="project__img" />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+              <div className="project__meta absolute">
+                <h5 className="project__text">E-commerce-store</h5>
+                <h4 className="project__text"> React JS + Redux. </h4>
+                {/* <h6 className="project__text">
+                  Cart update on addition and removal.
+                </h6> */}
+                <a
+                  href="https://e-commerce-websiite.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project__btn btn2"
+                >
+                  <i className="fa fa-eye"></i> &nbsp; Visit
+                </a>
+                <a
+                  href="https://github.com/vicky-poonia/e-commerce-website"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project__btn btn3"
+                >
+                  <i className="fa fa-github"></i> &nbsp; Source
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img src={Project3} alt="" className="project__img" />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+              <div className="project__meta absolute">
+                <h5 className="project__text">Post Office app</h5>
+                <h4 className="project__text">HTML, CSS, JS-fetch-api.</h4>
+                {/* <h6 className="project__text">
+                  Provides post offices list of user choice city.
+                </h6> */}
+                <a
+                  href="https://check-post-office-of-any-city.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project__btn btn2"
+                >
+                  <i className="fa fa-eye"></i> &nbsp; Visit
+                </a>
+                <a
+                  href="https://github.com/vicky-poonia/API-Post-Offices"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project__btn btn3"
+                >
+                  <i className="fa fa-github"></i> &nbsp; Source
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
                   <img src={Project4} alt="" className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Figma to Reactjs Website</h5>
-                <h4 className="project__text">
-                   Reactjs, Router-DOM, Figma.
-                </h4>
+                <h4 className="project__text">Reactjs, Router-DOM, Figma.</h4>
                 {/* <h6 className="project__text">
                   Figma to React app with Routing.
                 </h6> */}
                 <a
                   href="https://figma-to-reactjs.netlify.app/"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="project__btn btn2"
                 >
                   <i className="fa fa-eye"></i> &nbsp; Visit
@@ -58,90 +125,28 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Project1} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">E-commerce-store</h5>
-                <h4 className="project__text"> React JS + Redux. </h4>
-                {/* <h6 className="project__text">
-                  Cart update on addition and removal.
-                </h6> */}
-                <a href="/" target="_blank" rel="noopener noreferrer" className="project__btn btn2">
-                  <i className="fa fa-eye"></i> &nbsp; Visit
-                </a>
-                <a
-                  href="https://github.com/vicky-poonia/e-commerce-website"
-                  target="_blank" rel="noopener noreferrer"
-                  className="project__btn btn3"
-                >
-                  <i className="fa fa-github"></i> &nbsp; Source
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
-                  <img src={Project3} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">Post Office app</h5>
-                <h4 className="project__text">
-                   HTML, CSS, JS-fetch-api.
-                </h4>
-                {/* <h6 className="project__text">
-                  Provides post offices list of user choice city.
-                </h6> */}
-                <a
-                  href="https://check-post-office-of-any-city.netlify.app/"
-                  target="_blank" rel="noopener noreferrer"
-                  className="project__btn btn2"
-                >
-                  <i className="fa fa-eye"></i> &nbsp; Visit
-                </a>
-                <a
-                  href="https://github.com/vicky-poonia/API-Post-Offices"
-                  target="_blank" rel="noopener noreferrer"
-                  className="project__btn btn3"
-                >
-                  <i className="fa fa-github"></i> &nbsp; Source
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
                   <img src={Project2} alt="" className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Organisation Website</h5>
-                <h4 className="project__text">
-                   HTML, CSS, JS, Photoshop.
-                </h4>
+                <h4 className="project__text">HTML, CSS, JS, Photoshop.</h4>
                 {/* <h6 className="project__text">
                   Built a website using PSD document.
                 </h6> */}
                 <a
                   href="https://psd-to-html-1.netlify.app/"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="project__btn btn2"
                 >
                   <i className="fa fa-eye"></i> &nbsp; Visit
                 </a>
                 <a
                   href="https://github.com/vicky-poonia/psd-to-html-1"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="project__btn btn3"
                 >
                   <i className="fa fa-github"></i> &nbsp; Source
@@ -160,22 +165,22 @@ function Project() {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">To-Do App</h5>
-                <h4 className="project__text">
-                   Reactjs, Hooks, Bootstrap.
-                </h4>
+                <h4 className="project__text">Reactjs, Hooks, Bootstrap.</h4>
                 {/* <h6 className="project__text">
                   Add, Edit, Delete in To-Do list.
                 </h6> */}
                 <a
                   href="https://your-to-do-tasks.netlify.app/"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="project__btn btn2"
                 >
                   <i className="fa fa-eye"></i> &nbsp; Visit
                 </a>
                 <a
                   href="https://github.com/vicky-poonia/To-do-list"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="project__btn btn3"
                 >
                   <i className="fa fa-github"></i> &nbsp; Source
@@ -194,22 +199,22 @@ function Project() {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Website Landing Page</h5>
-                <h4 className="project__text">
-                   HTML, CSS, JS, Photoshop.
-                </h4>
+                <h4 className="project__text">HTML, CSS, JS, Photoshop.</h4>
                 {/* <h6 className="project__text">
                     A website using PSD document to HTML.
                 </h6> */}
                 <a
                   href="https://axit-psd-to-html-website.netlify.app/"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="project__btn btn2"
                 >
                   <i className="fa fa-eye"></i> &nbsp; Visit
                 </a>
                 <a
                   href="https://github.com/vicky-poonia/psd-to-html-3-axit"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="project__btn btn3"
                 >
                   <i className="fa fa-github"></i> &nbsp; Source
