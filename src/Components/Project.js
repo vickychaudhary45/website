@@ -62,9 +62,10 @@ function Project() {
               <div className="project__meta absolute">
                 <h5 className="project__text">Post Office app</h5>
                 <h4 className="project__text">HTML, CSS, JS-fetch-api.</h4>
-                {/* <h6 className="project__text">
-                  Provides post offices list of user choice city.
-                </h6> */}
+                <h6 className="project__text">
+                  for loop + map method.
+                  {/* Provides post offices list of user choice city. */}
+                </h6>
                 <a
                   href="https://check-post-office-of-any-city.netlify.app/"
                   target="_blank"
@@ -118,8 +119,6 @@ function Project() {
               </div>
             </div>
           </div>
-
-          
 
           <div className="col__3">
             <div className="project__box pointer relative">
