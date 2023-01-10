@@ -107,7 +107,7 @@ function Home() {
                 I am currently based in Noida, Uttar Pradesh. <br />
               </h2>
               <div className="bttn">
-                <a href="https://drive.google.com/file/d/1kA-OkXWq5Mqr1A6XDlzZ5ivI2sOjm03N/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1dUD_8x6jSlqbsJYBxi5XihKv02iadU-T/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                   <button className="about btn pointer">My Resume</button>
                 </a>
               </div>
