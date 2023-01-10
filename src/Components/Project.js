@@ -95,7 +95,7 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">Figma to Reactjs Website</h5>
+                <h5 className="project__text">Desktop App</h5>
                 <h4 className="project__text">Reactjs, Router-DOM, Figma.</h4>
                 {/* <h6 className="project__text">
                   Figma to React app with Routing.
@@ -129,7 +129,7 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">Organisation Website</h5>
+                <h5 className="project__text">Website(Organisation)</h5>
                 <h4 className="project__text">HTML, CSS, JS, Photoshop.</h4>
                 {/* <h6 className="project__text">
                   Built a website using PSD document.
@@ -197,7 +197,7 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">Website Landing Page</h5>
+                <h5 className="project__text">Website(Landing Page)</h5>
                 <h4 className="project__text">HTML, CSS, JS, Photoshop.</h4>
                 {/* <h6 className="project__text">
                     A website using PSD document to HTML.
@@ -212,6 +212,39 @@ function Project() {
                 </a>
                 <a
                   href="https://github.com/vicky-poonia/psd-to-html-3-axit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project__btn btn3"
+                >
+                  <i className="fa fa-github"></i> &nbsp; Source
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img src={Project6} alt="" className="project__img" />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+              <div className="project__meta absolute">
+                <h5 className="project__text">Github API</h5>
+                <h4 className="project__text">HTML, CSS, JS-AJAX(http)-Fetch</h4>
+                {/* <h6 className="project__text">
+                    A website using PSD document to HTML.
+                </h6> */}
+                <a
+                  href="https://ajax-fetch-api.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project__btn btn2"
+                >
+                  <i className="fa fa-eye"></i> &nbsp; Visit
+                </a>
+                <a
+                  href="https://github.com/vicky-poonia/Fetch-AJAX-API"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="project__btn btn3"
