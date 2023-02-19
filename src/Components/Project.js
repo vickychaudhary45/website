@@ -17,243 +17,67 @@ function Project() {
         <div className="row">
           {/* <br /> */}
 
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
-                  <img src={Project1} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">E-commerce-store</h5>
-                <h4 className="project__text"> React JS + Redux. </h4>
-                {/* <h6 className="project__text">
-                  Cart update on addition and removal.
-                </h6> */}
-                <a
-                  href="https://e-commerce-websiite.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn2"
-                >
-                  <i className="fa fa-eye"></i> &nbsp; Visit
-                </a>
-                <a
-                  href="https://github.com/vicky-poonia/e-commerce-website"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn3"
-                >
-                  <i className="fa fa-github"></i> &nbsp; Source
-                </a>
-              </div>
-            </div>
-          </div>
+          <Pro
+            imag={Project1}
+            name={"E-commerce-store"}
+            tech={" React JS + Redux. "}
+            // des={"Cart update on addition and removal."}
+            link1={"https://e-commerce-websiite.netlify.app/"}
+            link2={"https://github.com/vicky-poonia/e-commerce-website"}
+          />
 
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
-                  <img src={Project3} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">Post Office app</h5>
-                <h4 className="project__text">HTML, CSS, JS-fetch-api.</h4>
-                <h6 className="project__text">
-                  for loop + map method.
-                  {/* Provides post offices list of user choice city. */}
-                </h6>
-                <a
-                  href="https://check-post-office-of-any-city.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn2"
-                >
-                  <i className="fa fa-eye"></i> &nbsp; Visit
-                </a>
-                <a
-                  href="https://github.com/vicky-poonia/API-Post-Offices"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn3"
-                >
-                  <i className="fa fa-github"></i> &nbsp; Source
-                </a>
-              </div>
-            </div>
-          </div>
+          <Pro
+            imag={Project3}
+            name={"Post Office app"}
+            tech={"HTML, CSS, JS-fetch-api."}
+            // des={"for loop + map method. Provides post offices list of user choice city."}
+            link1={"https://check-post-office-of-any-city.netlify.app/"}
+            link2={"https://github.com/vicky-poonia/API-Post-Offices"}
+          />
+          <Pro
+            imag={Project4}
+            name={"Desktop App"}
+            tech={"Reactjs, Router-DOM, Figma."}
+            // des={"Figma to React app with Routing."}
+            link1={"https://figma-to-reactjs.netlify.app/"}
+            link2={"https://github.com/vicky-poonia/figma-to-reactjs-app"}
+          />
 
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
-                  <img src={Project4} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">Desktop App</h5>
-                <h4 className="project__text">Reactjs, Router-DOM, Figma.</h4>
-                {/* <h6 className="project__text">
-                  Figma to React app with Routing.
-                </h6> */}
-                <a
-                  href="https://figma-to-reactjs.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn2"
-                >
-                  <i className="fa fa-eye"></i> &nbsp; Visit
-                </a>
-                <a
-                  href="https://github.com/vicky-poonia/figma-to-reactjs-app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn3"
-                >
-                  <i className="fa fa-github"></i> &nbsp; Source
-                </a>
-              </div>
-            </div>
-          </div>
+          <Pro
+            imag={Project2}
+            name={"Website(Organisation)"}
+            tech={"HTML, CSS, JS, Photoshop."}
+            // des={"Built a website using PSD document."}
+            link1={"https://psd-to-html-1.netlify.app/"}
+            link2={"https://github.com/vicky-poonia/psd-to-html-1"}
+          />
 
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
-                  <img src={Project2} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">Website(Organisation)</h5>
-                <h4 className="project__text">HTML, CSS, JS, Photoshop.</h4>
-                {/* <h6 className="project__text">
-                  Built a website using PSD document.
-                </h6> */}
-                <a
-                  href="https://psd-to-html-1.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn2"
-                >
-                  <i className="fa fa-eye"></i> &nbsp; Visit
-                </a>
-                <a
-                  href="https://github.com/vicky-poonia/psd-to-html-1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn3"
-                >
-                  <i className="fa fa-github"></i> &nbsp; Source
-                </a>
-              </div>
-            </div>
-          </div>
+          <Pro
+            imag={Project5}
+            name={"To-Do App"}
+            tech={"Reactjs, Hooks, Bootstrap."}
+            // des={"Add, Edit, Delete in To-Do list."}
+            link1={"https://your-to-do-tasks.netlify.app/"}
+            link2={"https://github.com/vicky-poonia/To-do-list"}
+          />
 
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
-                  <img src={Project5} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">To-Do App</h5>
-                <h4 className="project__text">Reactjs, Hooks, Bootstrap.</h4>
-                {/* <h6 className="project__text">
-                  Add, Edit, Delete in To-Do list.
-                </h6> */}
-                <a
-                  href="https://your-to-do-tasks.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn2"
-                >
-                  <i className="fa fa-eye"></i> &nbsp; Visit
-                </a>
-                <a
-                  href="https://github.com/vicky-poonia/To-do-list"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn3"
-                >
-                  <i className="fa fa-github"></i> &nbsp; Source
-                </a>
-              </div>
-            </div>
-          </div>
+          <Pro
+            imag={Project6}
+            name={"Website(Landing Page)"}
+            tech={"HTML, CSS, JS, Photoshop."}
+            // des={"A website using PSD document to HTML."}
+            link1={"https://axit-psd-to-html-website.netlify.app/"}
+            link2={"https://github.com/vicky-poonia/psd-to-html-3-axit"}
+          />
 
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
-                  <img src={Project6} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">Website(Landing Page)</h5>
-                <h4 className="project__text">HTML, CSS, JS, Photoshop.</h4>
-                {/* <h6 className="project__text">
-                    A website using PSD document to HTML.
-                </h6> */}
-                <a
-                  href="https://axit-psd-to-html-website.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn2"
-                >
-                  <i className="fa fa-eye"></i> &nbsp; Visit
-                </a>
-                <a
-                  href="https://github.com/vicky-poonia/psd-to-html-3-axit"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn3"
-                >
-                  <i className="fa fa-github"></i> &nbsp; Source
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
-                  <img src={Project6} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">Github API</h5>
-                <h4 className="project__text">HTML, CSS, JS-AJAX(http)-Fetch</h4>
-                {/* <h6 className="project__text">
-                    A website using PSD document to HTML.
-                </h6> */}
-                <a
-                  href="https://ajax-fetch-api.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn2"
-                >
-                  <i className="fa fa-eye"></i> &nbsp; Visit
-                </a>
-                <a
-                  href="https://github.com/vicky-poonia/Fetch-AJAX-API"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__btn btn3"
-                >
-                  <i className="fa fa-github"></i> &nbsp; Source
-                </a>
-              </div>
-            </div>
-          </div>
+          <Pro
+            imag={Project1}
+            name={"Github API"}
+            tech={"HTML, CSS, JS-AJAX(http)-Fetch"}
+            // des={"A website using PSD document to HTML."}
+            link1={"https://ajax-fetch-api.netlify.app/"}
+            link2={"https://github.com/vicky-poonia/Fetch-AJAX-API"}
+          />
 
           {/* <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
             <button className="view__more pointer btn">View more</button>
@@ -263,5 +87,41 @@ function Project() {
     </div>
   );
 }
-
+function Pro(props) {
+  return (
+    <>
+      <div className="col__3">
+        <div className="project__box pointer relative">
+          <div className="project__box__img pointer relative">
+            <div className="project__img__box">
+              <img src={props.imag} alt="" className="project__img" />
+            </div>
+            <div className="mask__effect"></div>
+          </div>
+          <div className="project__meta absolute">
+            <h5 className="project__text">{props.name}</h5>
+            <h4 className="project__text">{props.tech}</h4>
+            {/* <h6 className="project__text">{props.des}</h6> */}
+            <a
+              href={props.link1}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project__btn btn2"
+            >
+              <i className="fa fa-eye"></i> &nbsp; Visit
+            </a>
+            <a
+              href={props.link2}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project__btn btn3"
+            >
+              <i className="fa fa-github"></i> &nbsp; Source
+            </a>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
 export default Project;
