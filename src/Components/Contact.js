@@ -51,15 +51,10 @@ function Contact() {
                 Open to relocate for a good opportunity <br />
                 {/* Can start immediately <br /> */}
               </p>
-
             </div>
           </div>
         </div>
       </div>
-      <span className="socio">
-        {/* <h3> Contact Me</h3> */}
-        {/* <h5>Socials:</h5> */}
-      </span>
     </div>
   );
 }
