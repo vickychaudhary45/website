@@ -17,6 +17,7 @@ function Home() {
           <div className="logo">
             <img src={logo} alt="" />
           </div>
+
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
               <a href="/">
@@ -84,6 +85,7 @@ function Home() {
             </div>
           )}
         </div>
+
         {/* HOME CONTENT */}
         <div className="container">
           <div className="home__content">
@@ -107,7 +109,11 @@ function Home() {
                 I am currently based in Noida, Uttar Pradesh. <br />
               </h2>
               <div className="bttn">
-                <a href="https://drive.google.com/file/d/1hCBEdz1fLX6tqLvKzAK84O_sSkQ5Y8up/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://drive.google.com/file/d/1hCBEdz1fLX6tqLvKzAK84O_sSkQ5Y8up/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="about btn pointer">My Resume</button>
                 </a>
               </div>
