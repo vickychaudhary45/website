@@ -21,20 +21,14 @@ function Home() {
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
               <a href="/">
-                <li className="nav__items mx__15">Home </li>
+                <li className="nav__items mx__15">Home</li>
               </a>
-              {/* <a href="./A">
-                <li className="nav__items mx__15">About </li>
-              </a> */}
               <a href="#Portfolio">
                 <li className="nav__items mx__15">MyProjects</li>
               </a>
               <a href="#Services">
                 <li className="nav__items mx__15">Skills </li>
               </a>
-              {/* <a href="#Blog">
-                <li className="nav__items mx__15">Blog </li>
-              </a> */}
               <a href="#Contact">
                 <li className="nav__items mx__15">Contact </li>
               </a>
@@ -66,18 +60,12 @@ function Home() {
                 <li className="sideNavbar">
                   <a href="#home">Home </a>
                 </li>
-                {/* <li className="sideNavbar">
-                  <a href="#about">About </a>
-                </li> */}
                 <li className="sideNavbar">
                   <a href="#portfolio">MyProjects</a>
                 </li>
                 <li className="sideNavbar">
                   <a href="#services">Skills </a>
                 </li>
-                {/* <li className="sideNavbar">
-                  <a href="#blog">Blog </a>
-                </li> */}
                 <li className="sideNavbar">
                   <a href="#contact">Contact </a>
                 </li>
@@ -126,3 +114,6 @@ function Home() {
 }
 
 export default Home;
+
+
+

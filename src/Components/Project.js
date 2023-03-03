@@ -15,8 +15,6 @@ function Project() {
       </div>
       <div className="container">
         <div className="row">
-          {/* <br /> */}
-
           <Pro
             imag={Project1}
             name={"E-commerce-store"}
