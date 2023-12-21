@@ -85,7 +85,7 @@ function Home() {
                 sequence={[
                   "I am Frontend developer",
                   1000,
-                  "I am ReactJS developer",
+                  "I am Backend developer",
                   1000,
                 ]}
                 speed={10}
@@ -93,17 +93,20 @@ function Home() {
                 wrapper="span"
                 repeat={Infinity}
               />
+              <h3>
+                Full-stack Developer <br />
+              </h3>
               <h2>
-                I am currently based in Noida, Uttar Pradesh. <br />
+                I am currently based in India. <br />
               </h2>
               <div className="bttn">
-                <a
+                {/* <a
                   href="https://drive.google.com/file/d/1hCBEdz1fLX6tqLvKzAK84O_sSkQ5Y8up/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="about btn pointer">My Resume</button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
