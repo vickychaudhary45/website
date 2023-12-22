@@ -15,7 +15,7 @@ function Home() {
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
-            <img src={logo} alt="" />
+            <img src={logo} alt="Vicky Poonia" />
           </div>
 
           <div className="navigation pxy__30">
@@ -58,16 +58,16 @@ function Home() {
             <div className="sideNavbar">
               <ul className="sidebar d__flex">
                 <a href="/" onClick={() => setShow(!show)}>
-                  <li className="nav__items nav__items_side mx__15">Home</li>
+                  <li className="sideNavbar">Home</li>
                 </a>
                 <a href="#Portfolio" onClick={() => setShow(!show)}>
-                  <li className="nav__items nav__items_side mx__15">MyProjects</li>
+                  <li className="sideNavbar">MyProjects</li>
                 </a>
                 <a href="#Services" onClick={() => setShow(!show)}>
-                  <li className="nav__items nav__items_side mx__15">Skills </li>
+                  <li className="sideNavbar">Skills </li>
                 </a>
                 <a href="#Contact" onClick={() => setShow(!show)}>
-                  <li className="nav__items nav__items_side mx__15">Contact </li>
+                  <li className="sideNavbar">Contact </li>
                 </a>
               </ul>
             </div>
@@ -91,7 +91,7 @@ function Home() {
                 speed={10}
                 style={{ fontSize: "40px", color: "green" }}
                 wrapper="span"
-                repeat={Infinity}q                      
+                repeat={Infinity}                  
               />
               <h3>
                 Full-stack Developer <br />

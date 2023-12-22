@@ -123,6 +123,11 @@ h4.home__text {
         height: 30px;
     }
 }
+@media only screen and (min-width: 768px) {
+    .toggle__menu{
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 425px) {
     h2.home__text.pz__10 {
