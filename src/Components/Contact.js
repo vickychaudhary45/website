@@ -47,9 +47,8 @@ function Contact() {
               <br />
               <br />
               <p className="hire__text white">
-                Actively applying <br />
-                Open to relocate for a good opportunity <br />
-                {/* Can start immediately <br /> */}
+                - Active and <br />
+                Open to contract, Can start immediately !!s <br />
               </p>
             </div>
           </div>

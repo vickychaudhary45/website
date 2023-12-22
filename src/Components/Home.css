@@ -12,6 +12,11 @@ li.nav__items {
     padding-bottom: 15px;
 }
 
+li.nav__items_side {
+    font-size: 24px;
+    padding-bottom: 55px;
+}
+
 /* .header {
     transition: .4s all ease;
 } */
@@ -37,7 +42,7 @@ ul.sidebar.d__flex {
     height: 100%;
     position: fixed;
     right: 0%;
-    background: #010101;
+    background: #12181f;
     justify-content: center;
     width: 300px;
     top: 0%;
@@ -46,6 +51,7 @@ ul.sidebar.d__flex {
 
 li.sideNavbar {
     padding: 25px 30px;
+    z-index: 1000;
 }
 
 
@@ -54,6 +60,10 @@ li.sideNavbar {
     padding: 125px 0px;
     text-align:center;
 }
+
+.TypeAnimation-cursor {
+    display: none !important;
+  }
 
 h1.home__text {
     font-size: 18px;

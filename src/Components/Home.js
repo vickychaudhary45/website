@@ -57,18 +57,18 @@ function Home() {
           {show ? null : (
             <div className="sideNavbar">
               <ul className="sidebar d__flex">
-                <li className="sideNavbar">
-                  <a href="#home">Home </a>
-                </li>
-                <li className="sideNavbar">
-                  <a href="#portfolio">MyProjects</a>
-                </li>
-                <li className="sideNavbar">
-                  <a href="#services">Skills </a>
-                </li>
-                <li className="sideNavbar">
-                  <a href="#contact">Contact </a>
-                </li>
+                <a href="/" onClick={() => setShow(!show)}>
+                  <li className="nav__items nav__items_side mx__15">Home</li>
+                </a>
+                <a href="#Portfolio" onClick={() => setShow(!show)}>
+                  <li className="nav__items nav__items_side mx__15">MyProjects</li>
+                </a>
+                <a href="#Services" onClick={() => setShow(!show)}>
+                  <li className="nav__items nav__items_side mx__15">Skills </li>
+                </a>
+                <a href="#Contact" onClick={() => setShow(!show)}>
+                  <li className="nav__items nav__items_side mx__15">Contact </li>
+                </a>
               </ul>
             </div>
           )}
@@ -91,7 +91,7 @@ function Home() {
                 speed={10}
                 style={{ fontSize: "40px", color: "green" }}
                 wrapper="span"
-                repeat={Infinity}
+                repeat={Infinity}q                      
               />
               <h3>
                 Full-stack Developer <br />

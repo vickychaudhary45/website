@@ -17,30 +17,30 @@ function Project() {
         <div className="row">
           <Pro
             imag={Project1}
-            name={"E-commerce-store"}
-            tech={" React JS + Redux. "}
+            name={"E-Learning"}
+            tech={" Next JS + Node JS. "}
             // des={"Cart update on addition and removal."}
-            link1={"https://e-commerce-websiite.netlify.app/"}
-            link2={"https://github.com/vicky-poonia/e-commerce-website"}
+            link1={"https://www.whizlabs.com/"}
+            link2={"https://github.com/vicky-poonia/Web_Learn"}
           />
 
-          <Pro
-            imag={Project3}
-            name={"Post Office app"}
-            tech={"HTML, CSS, JS-fetch-api."}
-            // des={"for loop + map method. Provides post offices list of user choice city."}
-            link1={"https://check-post-office-of-any-city.netlify.app/"}
-            link2={"https://github.com/vicky-poonia/API-Post-Offices"}
-          />
+
           <Pro
             imag={Project4}
-            name={"Desktop App"}
+            name={"Desktop App Design"}
             tech={"Reactjs, Router-DOM, Figma."}
             // des={"Figma to React app with Routing."}
             link1={"https://figma-to-reactjs.netlify.app/"}
             link2={"https://github.com/vicky-poonia/figma-to-reactjs-app"}
           />
-
+          <Pro
+            imag={Project3}
+            name={"Post Office API Integation"}
+            tech={"HTML, CSS, JS-fetch-api."}
+            // des={"for loop + map method. Provides post offices list of user choice city."}
+            link1={"https://check-post-office-of-any-city.netlify.app/"}
+            link2={"https://github.com/vicky-poonia/API-Post-Offices"}
+          />
           <Pro
             imag={Project2}
             name={"Website(Organisation)"}
