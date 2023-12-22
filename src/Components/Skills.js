@@ -10,11 +10,14 @@ function Skills() {
       </div>
 
       <div className="container">
-        <div
-          className="row"
-          style={{ backgroundImage: "linear-gradient(90deg, #0bf83e, #ef0963)" }}
-        >
-          <Skill name={"Linux"} />
+        <div className="row">
+          <Skill
+            name={"Linux"}
+            // style={{
+            //   backgroundImage:
+            //     "linear-gradient(to right, #0bf83e 0%, #0bf83e 90%, #ef0963 100%)",
+            // }}
+          />
           <Skill name={"Ubuntu"} />
         </div>
 
@@ -51,6 +54,7 @@ function Skill(props) {
     <>
       <div className="col__3">
         <div className="service__box pointer">
+        {/* <div className="service__box pointer" style={props.style}> */}
           <div className="service__meta">
             <h1 className="service__text">{props.name}</h1>
           </div>

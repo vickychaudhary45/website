@@ -15,7 +15,9 @@ function Home() {
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
-            <img src={logo} alt="Vicky Poonia" />
+            <a href="#Contact">
+              <img src={logo} alt="Vicky Poonia" />
+            </a>
           </div>
 
           <div className="navigation pxy__30">
@@ -91,7 +93,7 @@ function Home() {
                 speed={10}
                 style={{ fontSize: "40px", color: "green" }}
                 wrapper="span"
-                repeat={Infinity}                  
+                repeat={Infinity}
               />
               <h3>
                 Full-stack Developer <br />
@@ -117,6 +119,3 @@ function Home() {
 }
 
 export default Home;
-
-
-
