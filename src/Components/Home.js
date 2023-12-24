@@ -16,7 +16,7 @@ function Home() {
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
             <a href="#Contact">
-              <img src={logo} alt="Vicky Poonia" />
+              <img src={logo} alt="Vicky Poonia" /> d
             </a>
           </div>
 
