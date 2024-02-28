@@ -3,7 +3,7 @@ import "./Project.css";
 import Project1 from "../Img/portfolio-1.jpg";
 import Project2 from "../Img/portfolio-2.jpg";
 import Project3 from "../Img/portfolio-3.jpg";
-import Project4 from "../Img/portfolio-4.jpg";
+// import Project4 from "../Img/portfolio-4.jpg";
 import Project5 from "../Img/portfolio-1.jpg";
 import Project6 from "../Img/portfolio-6.jpg";
 
