@@ -122,3 +122,8 @@ button.view__more:hover {
         font-size: 18px;
     }
 }
+@media only screen and (max-width: 840px) {
+    .btn3{
+        margin-top: 40px;
+    }
+}

@@ -12,7 +12,7 @@ function Footer() {
         className="copyright"
         style={{ color: "#c6c9d8", fontSize: "14px", opacity: "0.75" }}
       >
-        vickypoonia020@gmail.com
+        @vickypoonia020
       </span>
     </div>
   );

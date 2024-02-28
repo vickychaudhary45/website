@@ -86,29 +86,29 @@ function Home() {
               <TypeAnimation
                 sequence={[
                   "I am Frontend developer",
-                  1000,
+                  5000,
                   "I am Backend developer",
-                  1000,
+                  5000,
                 ]}
-                speed={10}
+                speed={0.001}
                 style={{ fontSize: "40px", color: "green" }}
                 wrapper="span"
                 repeat={Infinity}
               />
               <h3>
-                Full-stack Developer <br />
+                ReactJS - NextJs - NodeJs - postgreSQl <br />
               </h3>
               <h2>
                 I am currently based in India. <br />
               </h2>
               <div className="bttn">
-                {/* <a
-                  href="https://drive.google.com/file/d/1hCBEdz1fLX6tqLvKzAK84O_sSkQ5Y8up/view?usp=sharing"
+                <a
+                  href="https://drive.google.com/file/d/14HJ9uZqXBji3g02nH4XZGvFATH0jCum2/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="about btn pointer">My Resume</button>
-                </a> */}
+                </a>
               </div>
             </div>
           </div>

@@ -23,16 +23,16 @@ function Contact() {
               {/* <br />
               <br />
               <br /> */}
-              {/* <p className="hire__text white">
+              <p className="hire__text white">
                 - Active and <br />
-                Open to contract, Can start immediately !!s <br />
-              </p> */}
+                Open to contract, Can start immediately !! <br />
+              </p>
             </div>
           </div>
         </div>
         <div className="iconsAll">
           <a
-            href="https://github.com/vicky-poonia/"
+            href="https://github.com/vickypoonia020/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ fontSize: "54px", color: "your-icon-color" }}
