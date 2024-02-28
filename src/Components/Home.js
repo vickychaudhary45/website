@@ -81,7 +81,7 @@ function Home() {
           <div className="home__content">
             <div className="home__meta">
               <h1 className="home__text pz__10">
-                Hi, Welcome to my Portfolios !!
+                Hi, Welcome to my Portfolios 🫶!!
               </h1>
               <TypeAnimation
                 sequence={[
@@ -96,11 +96,11 @@ function Home() {
                 repeat={Infinity}
               />
               <h3>
-                ReactJS - NextJs - NodeJs - postgreSQl <br />
+                React - Next - Node - Express - SQL  <br />
               </h3>
-              <h2>
-                I am currently based in India. <br />
-              </h2>
+              {/* <h2>
+                Code is ❤️ <br />
+              </h2> */}
               <div className="bttn">
                 <a
                   href="https://drive.google.com/file/d/14HJ9uZqXBji3g02nH4XZGvFATH0jCum2/view?usp=sharing"
